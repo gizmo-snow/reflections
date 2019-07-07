@@ -1,0 +1,13 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+It limited the output to only those lines that could have been affected by last update, making the auditing and comparison process much quicker
+
+
+How might using version control make you more confident to make changes that could break something?
+
+Knowing that earlier versions are so easily accessible and the differences so clearly defined would allow some reassurance that any mistakes could be identified and mitigated in a relatively quick fashion. 
+
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+I want to become more deeply involved in development, working on my own projects and collaborating with others who are working on great things. 
