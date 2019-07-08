@@ -29,6 +29,9 @@ a new branch should be created for each new task/area of work.  This allows for 
 context switching and provides ability to hop in and out of tasks more efficiently. 
 
 How do the diagrams help you visualize the branch structure?
+The diagrams are very helpful as they allow you to easily see where a branch split, and 
+which features are included before/after the split.  They also show merge points
+so that it is easy to understand where branches rejoined the master codebase. 
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
