@@ -15,9 +15,16 @@ just prior to making the commit.
 
 How can you use the staging area to make sure you have one commit per logical
 change?
+By using the staging area, code can be worked on more broadly, and then only certain 
+aspects/facets of the work kept.  Provides greater flexibility in allowing the developer
+to try more risky or ambitious actions without fear of altaring the code irreparably.
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
+If one were working on a long project or a new feature, then it may be beneficial to allow 
+more rapid development work to continue on the master branch, while the new feature or 
+project is being explored.  This would also allow iterative improvements to take place 
+on new features without introducing bugs to the master branch of the code. 
 
 How do the diagrams help you visualize the branch structure?
 
