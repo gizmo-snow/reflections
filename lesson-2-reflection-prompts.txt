@@ -24,7 +24,9 @@ organized? How would branches help?
 If one were working on a long project or a new feature, then it may be beneficial to allow 
 more rapid development work to continue on the master branch, while the new feature or 
 project is being explored.  This would also allow iterative improvements to take place 
-on new features without introducing bugs to the master branch of the code. 
+on new features without introducing bugs to the master branch of the code. Essentially,
+a new branch should be created for each new task/area of work.  This allows for quick 
+context switching and provides ability to hop in and out of tasks more efficiently. 
 
 How do the diagrams help you visualize the branch structure?
 
