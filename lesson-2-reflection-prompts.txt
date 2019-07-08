@@ -35,6 +35,12 @@ so that it is easy to understand where branches rejoined the master codebase.
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
+When two branches are merged together, the resulting branch consists of all of the commit 
+history from each of those branches, sorted by timestamp (often interwoven).  Representing
+the merge path graphically as is done using the `git log --graph --oneline {branch1} {branch2}`
+is useful as it is easy to understand at a glance which commitIDs are relevant given the version
+checked out by the developer. 
+
 
 What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
