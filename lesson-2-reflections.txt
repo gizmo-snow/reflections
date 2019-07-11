@@ -1,11 +1,11 @@
-What happens when you initialize a repository? Why do you need to do it?
-When you intiialize a repository a .git file is created which tracks changes 
+~What happens when you initialize a repository? Why do you need to do it?
+*When you intiialize a repository a .git file is created which tracks changes 
 over versions and manages which files are tracked.  This is necessarily 
 separate to allow for selective inclusion of relevant files into repository.
 
-How is the staging area different from the working directory and the repository?
+~How is the staging area different from the working directory and the repository?
 What value do you think it offers?
-The staging area is different from the working directory in that it only includes
+*The staging area is different from the working directory in that it only includes
 a list of files added specifically using the `git add` command, whereas the working
 directory contains anything located within it.  The repository consists of tracked
 files, and until files are committed from the staging area they are not technically 
@@ -13,38 +13,38 @@ included in the repository.  This dynamic allows for granular control of what
 specifically will be included in the repository, and provides a santity check moment
 just prior to making the commit. 
 
-How can you use the staging area to make sure you have one commit per logical
+~How can you use the staging area to make sure you have one commit per logical
 change?
-By using the staging area, code can be worked on more broadly, and then only certain 
+*By using the staging area, code can be worked on more broadly, and then only certain 
 aspects/facets of the work kept.  Provides greater flexibility in allowing the developer
 to try more risky or ambitious actions without fear of altaring the code irreparably.
 
-What are some situations when branches would be helpful in keeping your history
+~What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
-If one were working on a long project or a new feature, then it may be beneficial to allow 
+*If one were working on a long project or a new feature, then it may be beneficial to allow 
 more rapid development work to continue on the master branch, while the new feature or 
 project is being explored.  This would also allow iterative improvements to take place 
 on new features without introducing bugs to the master branch of the code. Essentially,
 a new branch should be created for each new task/area of work.  This allows for quick 
 context switching and provides ability to hop in and out of tasks more efficiently. 
 
-How do the diagrams help you visualize the branch structure?
-The diagrams are very helpful as they allow you to easily see where a branch split, and 
+~How do the diagrams help you visualize the branch structure?
+*The diagrams are very helpful as they allow you to easily see where a branch split, and 
 which features are included before/after the split.  They also show merge points
 so that it is easy to understand where branches rejoined the master codebase. 
 
-What is the result of merging two branches together? Why do we represent it in
+~What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
-When two branches are merged together, the resulting branch consists of all of the commit 
+*When two branches are merged together, the resulting branch consists of all of the commit 
 history from each of those branches, sorted by timestamp (often interwoven).  Representing
 the merge path graphically as is done using the `git log --graph --oneline {branch1} {branch2}`
 is useful as it is easy to understand at a glance which commitIDs are relevant given the version
 checked out by the developer. 
 
 
-What are the pros and cons of Git's automatic merging vs. always doing merges
+~What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
-The pros of automatic merging are that it's over and you don't have to perform any more work 
+*The pros of automatic merging are that it's over and you don't have to perform any more work 
 to get things together.  The con of automatic merging is that it's only possible when 
 there are no conflicts in the code being merged together.  The pros of doing manual merges 
 are that you're able to be thoughtful about which code to include when multiple options exist.  
