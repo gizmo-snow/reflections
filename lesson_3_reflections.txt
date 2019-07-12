@@ -32,7 +32,13 @@ stored locally?
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
 
-  Answer
+  Collaboration without using Git or GitHub would be much more time consuming, and 
+  would allow for much less tandem/aggregate team velocity. Sharing files with one another
+  is easy enough, and finding a text comparison program can be done easily enough, 
+  but the level of tedium involved with either a.) remembering all of the files you'd edited
+  so you can communicate that with the team (for comparison purposes), or b.) comparing
+  all files regularly to ensure synchronicity seems unreasonable now that such a solution
+  exists such as git. Frankly, I really don't want to imagine such a world. :-) 
   
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
