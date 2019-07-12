@@ -43,4 +43,10 @@ and what would be harder?
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
 
-  Answer
+  It seems like it would be a good idea to always use a separate branch unless the 
+  change is trivial like a typo, in which case creating a commit on master may be fine,
+  depending on the protocol of the development team in question.  Often times/usually, 
+  it is good practice to ensure that all changes to master come via pull requests, so that
+  there is a last minute sanity check.  It's also good practice to ensure that at least two
+  sets of eyes look at any code that will go into master, to ensure nothing malicious
+  was added.
